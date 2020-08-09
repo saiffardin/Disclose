@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="video.css">
+
+    <title>video</title>
+</head>
+
+<body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <div class="wrapper">
+        <video class="video" poster="images/image6(video_one).jpg">
+            <source src="video.mp4" type="video/mp4" />
+            <h1>hdfdsjhbcjhsdbcjhvdsjh</h1>
+        </video>
+        <div class="playpause"></div>
+        
+    </div>
+
+
+
+    <script>
+        $('.video').parent().click(function () {
+            if ($(this).children(".video").get(0).paused) {
+                $(this).children(".video").get(0).play();
+                $(this).children(".playpause").fadeOut();
+                $('.video').attr('controls', '');
+            } else {
+                $(this).children(".video").get(0).pause();
+                $(this).children(".playpause").fadeIn();
+                $('.video').removeAttr('controls');
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*
+Purple: #8E6BA5
+/*Purple: rgb(142, 107, 165) */
+/* Yellow: #FFED91 */
+
+/* ----------------------------------------------------------------------------- to hide overflow in mobile device*/
+
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
+
+/* ----------------------------------------------------------------------------- to hide overflow in mobile device*/
+
+header {
+  background-color: #8e6ba5;
+}
+
+.btn-In {
+  color: white;
+  font-weight: 600;
+  margin: 0 10px;
+  font-size: 20px;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-In:hover {
+  transform: scale(1.2);
+  color: #ffed91;
+}
+
+.nav-link {
+  margin: 0 10px;
+  font-size: 20px;
+}
+/* ---------------------------------------------------------------------- banner */
+.banner {
+  height: 800px;
+  background-image: url("images/Image1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.banner h1 {
+  color: white;
+  padding: 0 19%;
+  font-weight: 400;
+}
+
+.btn-getStarted {
+  width: fit-content;
+  background: #8e6ba5;
+  border-radius: 33px;
+  border: none;
+
+  color: white;
+  padding: 10px;
+
+  /* font-size: 16px; */
+  margin: 10px 0px;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-getStarted:hover {
+  transform: scale(1.2);
+  color: white;
+}
+
+/* ---------------------------------------------------------------------- communicating */
+
+.communicating,
+.evidence,
+.hide {
+  background-color: white;
+  /* padding: 50px 20px; */
+  padding: 5%;
+}
+
+.col-text {
+  padding-right: 15%;
+  padding-top: 10px;
+}
+
+.col-text p {
+  color: gray;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.right-padding {
+  padding-right: 15%;
+}
+
+.left-padding {
+  padding-left: 15%;
+}
+
+.col-img img {
+  width: 90%;
+}
+
+.hide-img img {
+  width: 70%;
+}
+
+/* ----------------------------------------------------------------------- give feedback  */
+
+.feedback {
+  /* height: 720px; */
+  /* background-color: rgba(142, 107, 165, 0.85); */
+  background-color: whitesmoke;
+}
+
+/* ----------------------------------------------------------------------- watch video  */
+
+.vid {
+  height: 800px;
+  background-image: url("images/image6\(video_one\).jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.vid h1 {
+  color: white;
+  font-weight: 700;
+  margin: 20px;
+  font-size: 50px;
+}
