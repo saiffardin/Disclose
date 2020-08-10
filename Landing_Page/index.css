@@ -121,6 +121,28 @@ header {
   background-color: whitesmoke;
 }
 
+.btn-feedBack {
+  width: 200px;
+  background: #8e6ba5;
+  color: white;
+
+  /* border: 2px solid black; */
+  border-radius: 50px;
+
+  padding: 10px 10px;
+
+  font-size: 20px;
+  margin: 10px 20px;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-feedBack:hover {
+  transform: scale(1.2);
+  color: white;
+  /* background-color: #b9b28c; */
+}
+
 /* ----------------------------------------------------------------------- watch video  */
 
 .vid {
@@ -150,6 +172,15 @@ header {
 .video {
   /* height: 50%; */
   width: 100%;
+}
+
+/* ----------------------------------------------------------------------- our achievements */
+.achievements p {
+  /* background-color: teal; */
+  padding: 0 33%;
+  text-align: center;
+  color: gray;
+  font-size: small;
 }
 
 
