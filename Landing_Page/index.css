@@ -20,7 +20,10 @@ body {
 /* ----------------------------------------------------------------------------- to hide overflow in mobile device*/
 
 header {
-  background-color: #8e6ba5;
+  /* background-color: #8e6ba5; */
+  background-image: url("images/Image1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .btn-In {
@@ -44,7 +47,7 @@ header {
 /* ---------------------------------------------------------------------- banner */
 .banner {
   height: 800px;
-  background-image: url("images/Image1.jpg");
+  /* background-image: url("images/Image1.jpg"); */
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -71,16 +74,22 @@ header {
 }
 
 .btn-getStarted:hover {
-  transform: scale(1.2);
-  color: white;
+  transform: scale(1.1);
+  /* color: #8e6ba5; */
+  background: #ffed91;
 }
 
 /* ---------------------------------------------------------------------- communicating */
 
 .communicating,
-.evidence,
-.hide {
+.evidence {
   background-color: white;
+  /* padding: 50px 20px; */
+  padding: 5%;
+}
+
+.hide {
+  background-color: whitesmoke;
   /* padding: 50px 20px; */
   padding: 5%;
 }
@@ -117,16 +126,19 @@ header {
 
 .feedback {
   /* height: 720px; */
-  /* background-color: rgba(142, 107, 165, 0.85); */
-  background-color: whitesmoke;
+  background-color: rgba(142, 107, 165, 0.85);
+  /* background-color: whitesmoke; */
+  /* background: #8e6ba5; */
+  color: white;
 }
 
 .btn-feedBack {
   width: 200px;
+  /* background-color: rgba(142, 107, 165, 0.9); */
   background: #8e6ba5;
   color: white;
 
-  /* border: 2px solid black; */
+  border: 2px solid white;
   border-radius: 50px;
 
   padding: 10px 10px;
@@ -138,9 +150,10 @@ header {
 }
 
 .btn-feedBack:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   color: white;
-  /* background-color: #b9b28c; */
+  /* color: #ffed91; */
+  border: 2px solid #ffed91;
 }
 
 /* ----------------------------------------------------------------------- watch video  */
@@ -185,25 +198,24 @@ header {
 
 /* ----------------------------------------------------------------------- Some of our Authorities*/
 
-.ourAuthorities{
-
-    /* height: au; */
-    background-color:  #8E6BA5;
-    color: white;
+.ourAuthorities {
+  /* height: au; */
+  background-color: #8e6ba5;
+  color: white;
 }
 
-.ourAuthorities p{
-    padding: 0 36%;
+.ourAuthorities p {
+  padding: 0 36%;
 }
 
-.ourAuthorities img{
-   width: 100%;
-   
-   border: 5px solid #FFED91;
-   border-radius: 50%;
-   margin: 10px;
+.ourAuthorities img {
+  width: 100%;
+
+  border: 5px solid #ffed91;
+  border-radius: 50%;
+  margin: 10px;
 }
 
-.ourAuthorities h5{
-    font-weight: 400;
- }
+.ourAuthorities h5 {
+  font-weight: 400;
+}
