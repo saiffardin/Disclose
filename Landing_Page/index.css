@@ -124,10 +124,20 @@ header {
 /* ----------------------------------------------------------------------- watch video  */
 
 .vid {
-  height: 800px;
+  height: 600px;
   background-image: url("images/image6\(video_one\).jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+
+  background-color: white;
+}
+
+.vid img {
+  transition: all 0.3s ease-in-out;
+}
+
+.vid img:hover {
+  transform: scale(1.1);
 }
 
 .vid h1 {
@@ -136,3 +146,8 @@ header {
   margin: 20px;
   font-size: 50px;
 }
+
+/* .video {
+  height: 50%;
+  width: 50%;
+} */
