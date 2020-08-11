@@ -219,3 +219,68 @@ header {
 .ourAuthorities h5 {
   font-weight: 400;
 }
+
+/* ----------------------------------------------------------------------- contact us*/
+
+.contactUs {
+  /* height: 600px;
+  background-image: url("images/Footer\(with-shadow\).png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; */
+}
+
+.contactUs p {
+  padding: 0 30%;
+  color: gray;
+}
+
+.contactUs-content {
+  /* margin: 10%; */
+  margin-left: 10%;
+}
+
+.footer {
+  height: 500px;
+  background-image: url("images/Footer\(with-shadow\).png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* display: flex; */
+}
+
+.footer p {
+  padding: 0 20px;
+  margin: 0;
+  color: black;
+}
+
+.footer-left p {
+  color: white;
+}
+
+.footer-left {
+  width: fit-content;
+}
+
+.footer-right h6 {
+  color: white;
+  font-weight: 300;
+}
+
+.footer-icon {
+  width: fit-content;
+}
+
+.footer-right img {
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-right img:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .footer-left p {
+    color: black;
+    font-weight: 500;
+  }
+}
