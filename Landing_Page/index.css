@@ -235,7 +235,8 @@ header {
 }
 
 .contactUs-content {
-  /* margin: 10%; */
+  margin-top: 200px;
+  margin-bottom: 100px;
   margin-left: 10%;
 }
 
