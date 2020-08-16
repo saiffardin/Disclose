@@ -35,8 +35,10 @@ h6 {
 }
 
 .logIn-btn:hover {
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
   color: white;
+  background: #8e6ba5;
+  font-weight: 500;
 }
 
 p {
