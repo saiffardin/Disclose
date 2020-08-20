@@ -1,0 +1,4 @@
+Purple in navbae: #DDD2F3
+
+background: rgb(165,104,250);
+background: linear-gradient(68deg, rgba(165,104,250,1) 14%, rgba(0,216,251,1) 97%);

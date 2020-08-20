@@ -1,0 +1,25 @@
+header {
+    background-color: #8e6ba5;
+    /* background-image: url("images/Image1.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%; */
+  }
+  
+  .btn-out {
+    color: white;
+    font-weight: 600;
+    margin: 0 10px;
+    font-size: 20px;
+  
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn-out:hover {
+    transform: scale(1.2);
+    color: #ffed91;
+  }
+  
+  .nav-link {
+    margin: 0 10px;
+    font-size: 20px;
+  }
