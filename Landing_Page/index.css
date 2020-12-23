@@ -48,6 +48,28 @@ header {
   margin: 0 10px;
   font-size: 20px;
 }
+
+/* to unformatted anchor tag */
+.navbar_anchor{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+/* to unformatted anchor tag */
+.navbar_anchor:visited {
+    text-decoration: none;
+    color: inherit;
+    /* cursor: auto; */
+}
+
+/* to unformatted anchor tag */
+.navbar_anchor:hover {
+    text-decoration: none;
+    color: inherit;
+    /* cursor: auto; */
+}
+
 /* ---------------------------------------------------------------------- banner */
 .banner {
   height: 800px;

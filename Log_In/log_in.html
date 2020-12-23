@@ -23,17 +23,17 @@
 
     <div class="container">
 
-        <div class="top-part d-flex justify-content-center align-items-center flex-column">
+        <!-- illustration -->
 
-            <img src="images/image1.png" alt="log in illus">
-
-            <!-- <h6 class="px-5 text-center mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
-                necessitatibus
-                soluta, sequi aut, nihil
-                similique sapiente exercitationem, minima ipsam
-                adipisci quasi!</h6> -->
+        <div class="top-part ">
+            <a class='navbar_anchor d-flex justify-content-center align-items-center flex-column'
+                href="../Landing_Page/index.html">
+                <img src="images/image1.png" alt="log in illus">
+            </a>
         </div>
 
+
+        <!-- Log in form -->
         <div class="user-login m-5">
             <h1 class="text-center">USER LOGIN</h1>
             <h5 class="text-center">Welcome back</h5>
@@ -74,13 +74,21 @@
 
                 <!-- Log In Button -->
                 <div class="text-center px-5 mt-3">
-                    <button class="btn logIn-btn " type="submit">Log In</button>
+                    <!-- <button class="btn logIn-btn " type="submit">Log In</button> -->
+
+                    <button class="btn logIn-btn " type="submit">
+                        <a class='navbar_anchor' href="../After_Login/afterLogin.html">Log In</a>
+                    </button>
+
+
                 </div>
 
                 <!-- create account -->
                 <div class=" px-5 d-flex flex-row align-items-center justify-content-center mt-5">
                     <p>Do not have any account?</p>
-                    <button class="btn logIn-btn ml-3">Create Account</button>
+                    <button class="btn logIn-btn ml-3">
+                        <a class='navbar_anchor' href="../Sign_Up/sign_up.html">Create Account</a>
+                    </button>
                 </div>
             </form>
         </div>

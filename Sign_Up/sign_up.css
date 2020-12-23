@@ -14,10 +14,25 @@ body {
 
 /* ----------------------------------------------------------------------------- to hide overflow in mobile device*/
 
-/* html, body {
-    height: 100%;
-    margin: 0px;
-} */
+/* to unformatted anchor tag */
+.navbar_anchor {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* to unformatted anchor tag */
+  .navbar_anchor:visited {
+    text-decoration: none;
+    color: inherit;
+    /* cursor: auto; */
+  }
+  
+  /* to unformatted anchor tag */
+  .navbar_anchor:hover {
+    text-decoration: none;
+    color: inherit;
+    /* cursor: auto; */
+  }
 
 .row {
   height: 100vh;
