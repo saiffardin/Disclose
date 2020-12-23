@@ -18,15 +18,11 @@
     - Clicking on __Log In__ button will take you to _log in_ page
 
 
+
 ### `Screenshots:`
 
 Landing Page : Desktop 
 ![desktop](./screenshots/1.desktop.png)
-
----
-
-Landing Page : Mobile 
-![mobile](./screenshots/2.mobile.png)
 
 ---
 
@@ -50,20 +46,5 @@ After Log In - Desktop
 
 ---
 
-After Log In - Mobile
-![After Log In](./screenshots/7.Logged_In(mobile).png)
 
----
 
-Administration - Desktop
-![Administration](./screenshots/8.Admin.png)
-
----
-
-Share Problem - Desktop
-![Administration](./screenshots/9.ProblemsShare.png)
-
----
-
-Share Problem - Mobile
-![Administration](./screenshots/10.ProblemsShare(mobile).png)
